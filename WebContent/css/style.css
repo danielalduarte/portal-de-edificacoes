@@ -1,0 +1,62 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/background-portoalegre.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.indexheader {
+	margin: 20px;
+	height: 20%;
+	background-image: url("../images/logo-portoalegre.jpg");
+	background-repeat: no-repeat;
+}
+
+.indextitle {
+	margin: 20px;
+	height: 20%;
+	background-color: white;
+}
+
+.indexbody {
+	height: 35%;
+	margin: 20px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.indexbody:last-child {
+
+}
+
+.indexbox {
+	display: inline-block; /* Permite que as caixas fiquem lado a lado */
+	width: 29%; /* Define a largura desejada para cada caixa */
+	margin: 10px; /* Adiciona margens para espaçamento entre as caixas */
+	padding: 10px; /* Adiciona preenchimento para espaçamento interno nas caixas */
+	border: 1px solid #000; /* Adicione uma borda para melhor visualização */
+	border-radius: 15px; /* Raio da borda arredondada */
+	text-align: center; /* Centralize o conteúdo dentro das caixas */
+	background-color: white;
+}
+
+.pagebody {
+	background-color: "white";
+}
